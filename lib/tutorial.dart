@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:password/favorite.dart';
 
 Widget titleSection = Container(
   padding: const EdgeInsets.all(32),
@@ -29,11 +30,7 @@ Widget titleSection = Container(
         ),
       ),
       /*3*/
-      Icon(
-        Icons.star,
-        color: Colors.red[500],
-      ),
-      Text('41'),
+      FavoriteWidget(),
     ],
   ),
 );
