@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:password/interact.dart';
 import 'package:password/tutorial.dart';
 
 void main() => runApp(MyApp());
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
           titleSection,
           buttonSection(Theme.of(context).primaryColor),
           textSection,
+          ParentWidget(),
         ]),
       ),
     );
